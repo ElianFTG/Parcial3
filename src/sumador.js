@@ -1,20 +1,16 @@
 function cambio(a, b) {
-  if(verificacion(a,b)){
-    if(b > a){
-      return b - a;
-    }
-    else{
-      return a - b;
-    }
+  if(b > a){
+    return b - a;
   }
   else{
-    return -1;
+    return a - b;
   }
-  
 }
+  
+
 
 function verificacion(a,b){
-  if(a === "" || b === "" ){
+  if(a == "" || b == "" ){
     return false;
   }
   else{
