@@ -8,11 +8,13 @@ function cambio(a, b) {
 }
 
 function verificacion(a,b){
-  if(a == "" || b == ""){
-    return false
+  if(a == "" || b == "" || a == "NaN" || b == "NaN" ){
+    return false;
   }
   else{
     return true;
   }
 }
+
+
 module.exports = {cambio,verificacion};
