@@ -1,7 +1,7 @@
 import sumar from "./sumador";
 
-const first = document.querySelector("#primer-numero");
-const second = document.querySelector("#segundo-numero");
+const first = document.querySelector("#Monto");
+const second = document.querySelector("#efectivo");
 const form = document.querySelector("#sumar-form");
 const div = document.querySelector("#resultado-div");
 
