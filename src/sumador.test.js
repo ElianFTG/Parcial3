@@ -13,7 +13,7 @@ describe("Cambio", () => {
   it("deberia retornar false si es que el Efectivo esta vacio", () => {
     expect(verificacion(2, "")).toEqual(false);
   });
-  /*it("deberia retornar false si es que el Monto-Venta y Efectivo estan vacios", () => {
+  it("deberia retornar false si es que el Monto-Venta y Efectivo estan vacios", () => {
     expect(verificacion("", "")).toEqual(false);
   });
   /*it("deberia retornar true si es que el Monto-Venta y Efectivo no estan vacios", () => {
