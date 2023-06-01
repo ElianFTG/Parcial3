@@ -1,14 +1,20 @@
 function cambio(a, b) {
-  if(b > a){
-    return b - a;
+  if(verificacion(a,b)){
+    if(b > a){
+      return b - a;
+    }
+    else{
+      return a - b;
+    }
   }
   else{
-    return a - b;
+    return -1;
   }
+  
 }
 
 function verificacion(a,b){
-  if(a == "" || b == "" || a == "NaN" || b == "NaN" ){
+  if(a === "" || b === "" ){
     return false;
   }
   else{

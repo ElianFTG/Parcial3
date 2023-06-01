@@ -10,7 +10,8 @@ form.addEventListener("submit", (event) => {
 
   const firstNumber = Number.parseInt(first.value);
   const secondNumber = Number.parseInt(second.value);
-  if(!verificacion(firstNumber, secondNumber)){
+  console.log(typeof(firstNumber));
+  if(verificacion(firstNumber, secondNumber) === false){
     alert("Ingrese ambas datos");
   }
   else{
